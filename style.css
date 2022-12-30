@@ -1,0 +1,74 @@
+header{
+    display: block;
+}
+.sticky{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 10;
+   
+
+}
+.header-text{
+width: 1728px;
+height: 1030px;
+left: 0px;
+color:white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2000px;
+background: #000000;
+
+}
+.container-fluid{
+    background: #000000;  
+}
+
+.nav{
+    position: absolute;
+    width: 1050px;
+    height: 745px;
+    left: 96px;
+    top: 300px;
+    margin-bottom: 0.5%;
+}    
+.img-fluid{
+    z-index: 1;
+}
+.about-us{
+    background: white;
+    color:#000000;
+
+}
+.container-fluid2{
+    background: white;
+
+}
+.card{
+    width: 300px;
+    height: 300px;
+    top: 0%;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ .scrolling-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin: 10px;
+    }
+    .navpart{
+        width:100%;
+    
+    }
+.ourservice,h1{
+    color:white;
+    justify-content: center;
+
+}
